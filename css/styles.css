@@ -13,7 +13,11 @@ body {
   border: none;
 }
 
-
+.snowimg {
+  width: 350px;
+  height: 350px;
+  opacity: 0.8;
+}
 @media (max-width: 768px) {}
   .col-bkg {
     background-color: blue;
