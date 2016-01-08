@@ -1,6 +1,7 @@
 body {
 
 }
+
 .navbar-collapse {
   float: right;
 }
@@ -34,10 +35,19 @@ h4.icon {
 
 }
 
-@media (max-width: 768px) {}
-  .col-bkg {
-    background-color: blue;
-  }
+.col-bkg {
+  background-color: #ebfafa
+}
+
+.glyphicon {
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.jumbotron {
+  background-color: #ebfafa
+}
+@media screen (min-width: 768px) {
   .jumbotron {
     padding-left: 62px;
     padding-right: 62px;
