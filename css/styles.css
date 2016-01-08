@@ -24,10 +24,11 @@ h1 {
   margin: 0;
   border: none;
 }
-.snowimg {
+img {
   width: 300px;
   height: 300px;
   opacity: 0.8;
+  margin-bottom: 10px;
 }
 
 .list-elements {
