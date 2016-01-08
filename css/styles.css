@@ -1,5 +1,5 @@
 body {
-
+ background-image: url("file:///Users/tstratton/Documents/portfolio_project/img/noiseimg.png") repeat;
 }
 
 h1 {
@@ -62,13 +62,17 @@ ul {
 .jumbotron {
   background-color: #ebfafa
 }
-
 @media (max-width: 768px) {
   .jumbotron {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  h4.icon {
+    width: 25px;
+    margin-left: 10px;
   }
 }
 
