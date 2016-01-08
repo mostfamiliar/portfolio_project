@@ -52,9 +52,30 @@ ul {
 .jumbotron {
   background-color: #ebfafa
 }
-@media screen (min-width: 768px) {
+
+@media (max-width: 768px) {
+  .jumbotron {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .jumbotron {
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
   .jumbotron {
     padding-left: 62px;
     padding-right: 62px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
