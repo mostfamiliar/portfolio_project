@@ -13,8 +13,13 @@ body {
   border: none;
 }
 
-@media (min-width: @screen-lg-max) {}
+
+@media (max-width: 768px) {}
   .col-bkg {
     background-color: blue;
+  }
+  .jumbotron {
+    padding-left: 62px;
+    padding-right: 62px;
   }
 }
