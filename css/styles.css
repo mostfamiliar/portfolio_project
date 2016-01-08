@@ -1,0 +1,20 @@
+body {
+
+}
+.navbar-collapse {
+  float: right;
+}
+
+.container-fluid {
+    background-color: #FFF;
+}
+
+.navbar {
+  border: none;
+}
+
+@media (min-width: @screen-lg-max) {}
+  .col-bkg {
+    background-color: blue;
+  }
+}
