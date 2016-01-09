@@ -10,7 +10,7 @@ h1 {
 }
 
 .container-fluid {
-    background-color: #FFF;
+  background-color: #FFF;
 }
 .alert {
   display: none;
@@ -23,6 +23,28 @@ h1 {
   padding: 0;
   margin: 0;
   border: none;
+}
+
+.btn .caret {
+  margin-left: 10px;
+}
+
+.well {
+  margin-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #525252;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+a.list-elements {
+  color: #525252;
+}
+
+a.list-elements:hover {
+  color: #8D8D8D;
 }
 
 img {
@@ -77,6 +99,7 @@ ul {
 .jumbotron {
   background-color: #ebfafa
 }
+
 @media (max-width: 768px) {
   .jumbotron {
     padding-left: 15px;
@@ -88,6 +111,11 @@ ul {
   h4.icon {
     width: 25px;
     margin-left: 10px;
+  }
+
+  img {
+    width: 50%;
+    height: 50%;
   }
 }
 
